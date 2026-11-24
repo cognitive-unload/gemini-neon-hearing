@@ -1,0 +1,7 @@
+Kokoro-82M Voice Model Attribution (Apache License 2.0)
+
+Spoken voiceover test lines in exam/wavs/ (r2_*, r3_*, r4_*) were generated locally
+using Kokoro-82M via mlx-community/Kokoro-82M-bf16 (revision a71e4d38b236d968966a2002c4c895dbd12b1c3c),
+licensed under the Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0).
+
+No private recordings or third-party voice clones were used.

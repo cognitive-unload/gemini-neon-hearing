@@ -1,0 +1,323 @@
+{
+  "model": "gemini-4-neon-medium",
+  "total_runs": 18,
+  "flawed_detected": 2,
+  "flawed_exact_cat": 2,
+  "flawed_total": 9,
+  "clean_correct": 9,
+  "clean_fp": 0,
+  "clean_total": 9,
+  "exact_classification": 11,
+  "implied_pairwise_wtl": [
+    2,
+    7,
+    0
+  ],
+  "by_pair": {
+    "r3_p1": {
+      "flaw_category": "vocal_buried",
+      "clean_file": "r3_p1_x.wav",
+      "flawed_file": "r3_p1_y.wav",
+      "clean_scores": [
+        9,
+        9,
+        9
+      ],
+      "flawed_scores": [
+        9,
+        9,
+        9
+      ],
+      "clean_fp": 0,
+      "flawed_detected": 0,
+      "flawed_exact_cat": 0,
+      "implied_wtl": [
+        0,
+        3,
+        0
+      ]
+    },
+    "r3_p2": {
+      "flaw_category": "harsh_thin_eq",
+      "clean_file": "r3_p2_y.wav",
+      "flawed_file": "r3_p2_x.wav",
+      "clean_scores": [
+        9,
+        9,
+        9
+      ],
+      "flawed_scores": [
+        9,
+        9,
+        9
+      ],
+      "clean_fp": 0,
+      "flawed_detected": 0,
+      "flawed_exact_cat": 0,
+      "implied_wtl": [
+        0,
+        3,
+        0
+      ]
+    },
+    "r3_p3": {
+      "flaw_category": "rhythm_or_splice_glitch",
+      "clean_file": "r3_p3_x.wav",
+      "flawed_file": "r3_p3_y.wav",
+      "clean_scores": [
+        9,
+        9,
+        9
+      ],
+      "flawed_scores": [
+        4,
+        9,
+        4
+      ],
+      "clean_fp": 0,
+      "flawed_detected": 2,
+      "flawed_exact_cat": 2,
+      "implied_wtl": [
+        2,
+        1,
+        0
+      ]
+    }
+  },
+  "rows": [
+    {
+      "file": "r3_p1_x.wav",
+      "pair": "r3_p1",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 1,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "The voiceover sounds natural and well-balanced with warm low-end body and smooth upper-mids, sitting clearly in front of the background music throughout. The music bed keeps a steady rhythm with no audible splice glitches, distortion, noise, or dropouts."
+    },
+    {
+      "file": "r3_p1_x.wav",
+      "pair": "r3_p1",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 2,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "The clip features a clear male voiceover over a subtle, well-balanced background music bed. The narration sits cleanly in front of the music with natural low-end warmth and smooth upper-mids, the musical beat remains steady with no splice glitches, and there are no technical defects such as clipping, hiss, or dropouts."
+    },
+    {
+      "file": "r3_p1_x.wav",
+      "pair": "r3_p1",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 3,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "The male narration sits clearly in front of the background music bed and is effortless to understand throughout. The vocal tone is natural and balanced with full low-end warmth and smooth upper-mids, the music maintains a steady rhythm without splice glitches, and there are no audible technical defects."
+    },
+    {
+      "file": "r3_p1_y.wav",
+      "pair": "r3_p1",
+      "gt_clean": false,
+      "gt_cat": "vocal_buried",
+      "run": 1,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "The narrator's voice sits clearly in front of the background music and is effortless to understand throughout. The vocal tone is natural, warm, and well-balanced with no harshness or thinness, and the music bed maintains a steady rhythm and smooth continuity with no audible technical defects."
+    },
+    {
+      "file": "r3_p1_y.wav",
+      "pair": "r3_p1",
+      "gt_clean": false,
+      "gt_cat": "vocal_buried",
+      "run": 2,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "The voiceover is clear, natural, and well-balanced with good warmth and smooth highs, sitting comfortably on top of the background music without being masked. The music bed keeps a steady rhythm with no splice glitches, clipping, or other technical defects."
+    },
+    {
+      "file": "r3_p1_y.wav",
+      "pair": "r3_p1",
+      "gt_clean": false,
+      "gt_cat": "vocal_buried",
+      "run": 3,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "The male voiceover sits clearly in front of the background music bed and is effortless to understand throughout. The vocal tone is natural and well-balanced with normal low-end warmth and smooth upper-mids, and the music maintains a steady rhythm and smooth continuity with no clipping, dropouts, or edit glitches."
+    },
+    {
+      "file": "r3_p2_x.wav",
+      "pair": "r3_p2",
+      "gt_clean": false,
+      "gt_cat": "harsh_thin_eq",
+      "run": 1,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "Clean, well-balanced mix with a natural, warm male voiceover sitting clearly in front of a steady background music bed. No EQ harshness, rhythm or splice glitches, or technical defects are audible."
+    },
+    {
+      "file": "r3_p2_x.wav",
+      "pair": "r3_p2",
+      "gt_clean": false,
+      "gt_cat": "harsh_thin_eq",
+      "run": 2,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "Clean podcast-style narration over a steady background music bed. The male voice is clear, natural, and well-balanced with good low-end warmth and smooth highs, sitting comfortably in front of the music throughout. The music maintains a steady rhythm with no splice glitches, clipping, or noise."
+    },
+    {
+      "file": "r3_p2_x.wav",
+      "pair": "r3_p2",
+      "gt_clean": false,
+      "gt_cat": "harsh_thin_eq",
+      "run": 3,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "Clean mix with human narration sitting clearly in front of the background music bed. The voice sounds natural and well-balanced with good low-end warmth and smooth upper-mids, the music keeps a steady beat with no splice glitches, and there are no technical defects such as clipping, hiss, or dropouts."
+    },
+    {
+      "file": "r3_p2_y.wav",
+      "pair": "r3_p2",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 1,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "Clean voiceover over a subtle electronic music bed. The narrator's voice sits clearly in front of the music, has natural low-end warmth and balanced EQ without harshness, and the music maintains a steady beat with no splice glitches, clipping, or dropouts."
+    },
+    {
+      "file": "r3_p2_y.wav",
+      "pair": "r3_p2",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 2,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "Clean podcast/voiceover mix. Human speech is clearly present and sits well in front of the subtle background music bed, remaining effortless to understand throughout. The vocal EQ sounds natural and balanced with normal low-end warmth and smooth upper-mids. The music maintains a steady rhythm and smooth continuity from start to end with no audible splice glitches, clipping, noise, or dropouts."
+    },
+    {
+      "file": "r3_p2_y.wav",
+      "pair": "r3_p2",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 3,
+      "speech_present": true,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "The narration is clear, warm, and well-balanced with natural low-end body and smooth upper-mids. The voice sits cleanly in front of the background music, which maintains a steady rhythm and smooth continuity throughout with no audible glitches or technical defects."
+    },
+    {
+      "file": "r3_p3_x.wav",
+      "pair": "r3_p3",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 1,
+      "speech_present": false,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "Pure instrumental electronic music clip with no human speech. The rhythm, tempo, and bar timing remain steady and consistent from start to finish with smooth chord transitions and no audible splice glitches, clipping, noise, or other technical defects."
+    },
+    {
+      "file": "r3_p3_x.wav",
+      "pair": "r3_p3",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 2,
+      "speech_present": false,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "Pure instrumental electronic track with no human speech. The beat, tempo, and bar timing remain steady throughout with smooth chord and loop transitions and no audible splice glitches, clipping, hiss, or dropouts."
+    },
+    {
+      "file": "r3_p3_x.wav",
+      "pair": "r3_p3",
+      "gt_clean": true,
+      "gt_cat": "none",
+      "run": 3,
+      "speech_present": false,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": true,
+      "explanation": "Pure instrumental electronic music clip with no human speech. The synth chords, bass, and drum groove are clean and well-balanced, maintaining a steady beat and smooth bar transitions throughout with no audible splice glitches, clipping, noise, or dropouts."
+    },
+    {
+      "file": "r3_p3_y.wav",
+      "pair": "r3_p3",
+      "gt_clean": false,
+      "gt_cat": "rhythm_or_splice_glitch",
+      "run": 1,
+      "speech_present": false,
+      "has_flaw": true,
+      "pred_cat": "rhythm_or_splice_glitch",
+      "score": 4,
+      "exact_ok": true,
+      "explanation": "Pure instrumental electronic track with no human speech. Around the midpoint (approximately 7-8 seconds), there is a clearly audible off-beat splice glitch where the fourth bar of the progression cuts short and jumps prematurely back to the start of the loop, disrupting the steady rhythm."
+    },
+    {
+      "file": "r3_p3_y.wav",
+      "pair": "r3_p3",
+      "gt_clean": false,
+      "gt_cat": "rhythm_or_splice_glitch",
+      "run": 2,
+      "speech_present": false,
+      "has_flaw": false,
+      "pred_cat": "none",
+      "score": 9,
+      "exact_ok": false,
+      "explanation": "Pure instrumental synth and drum track with no human speech. The tempo, beat, and chord progression stay steady and consistent throughout with seamless loop transitions and clean, balanced sound quality free of clipping, hiss, clicks, or dropouts."
+    },
+    {
+      "file": "r3_p3_y.wav",
+      "pair": "r3_p3",
+      "gt_clean": false,
+      "gt_cat": "rhythm_or_splice_glitch",
+      "run": 3,
+      "speech_present": false,
+      "has_flaw": true,
+      "pred_cat": "rhythm_or_splice_glitch",
+      "score": 4,
+      "exact_ok": true,
+      "explanation": "Pure instrumental electronic beat with no human speech. Around 10 seconds, at the end of the fourth bar, there is an abrupt off-beat splice/loop seam that cuts the bar short and restarts the chord progression early, causing a noticeable rhythmic hiccup that breaks the steady tempo."
+    }
+  ]
+}

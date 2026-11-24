@@ -1,0 +1,276 @@
+{
+ "files": {
+  "r1_01.wav": {
+   "background": "very quiet room tone",
+   "duration_sec": 4.754,
+   "events": [
+    {
+     "end_sec": 4.75,
+     "label": "metal wind-chime cluster (several struck bell tones, ringing out)",
+     "start_sec": 0.05
+    }
+   ],
+   "round": 1,
+   "speech_present": false
+  },
+  "r1_02.wav": {
+   "background": "quiet indoor room tone",
+   "duration_sec": 16.017,
+   "events": [
+    {
+     "end_sec": 2.43,
+     "label": "three knocks on a wooden door",
+     "start_sec": 1.83
+    },
+    {
+     "end_sec": 8.97,
+     "label": "kettle whistle building up",
+     "start_sec": 4.97
+    },
+    {
+     "end_sec": 11.81,
+     "label": "two glass clinks",
+     "start_sec": 10.61
+    }
+   ],
+   "round": 1,
+   "speech_present": false,
+   "synthesized": true
+  },
+  "r1_03.wav": {
+   "background": "rain and wind",
+   "duration_sec": 15.341,
+   "events": [
+    {
+     "end_sec": 15.34,
+     "label": "steady rain (background, whole clip)",
+     "start_sec": 0.0
+    },
+    {
+     "end_sec": 15.34,
+     "label": "steady wind (background, whole clip)",
+     "start_sec": 0.0
+    },
+    {
+     "end_sec": 10.85,
+     "label": "emergency siren passing left to right, rising and falling",
+     "start_sec": 5.85
+    }
+   ],
+   "round": 1,
+   "speech_present": false,
+   "synthesized": true
+  },
+  "r2_01.wav": {
+   "approx_time_sec": 8.45,
+   "crossfade_ms": 5,
+   "cut_len_sec": 0.12,
+   "defect_type": "cut_word_splice",
+   "duration_sec": 22.992,
+   "round": 2,
+   "text_id": "r2a"
+  },
+  "r2_02.wav": {
+   "approx_time_sec": 9.9,
+   "defect_end_sec": 11.5,
+   "defect_type": "garbled_vocal",
+   "detail": "100 ms stutter x3 then 1.3 s pitch warble with light bit-crush",
+   "duration_sec": 22.991,
+   "round": 2,
+   "text_id": "r2b"
+  },
+  "r2_03.wav": {
+   "approx_time_sec": 11.114,
+   "defect_end_sec": 13.714,
+   "defect_type": "overlap_or_reverb_jump",
+   "detail": "second speaker (female) bleeds over narrator at -6 dB for about 2.6 s",
+   "duration_sec": 21.524,
+   "round": 2,
+   "text_id": "r2c"
+  },
+  "r2_04.wav": {
+   "approx_time_sec": null,
+   "defect_type": "none",
+   "duration_sec": 20.792,
+   "round": 2,
+   "text_id": "r2d"
+  },
+  "r3_p1_x.wav": {
+   "pair": "r3_p1",
+   "round": 3
+  },
+  "r3_p1_y.wav": {
+   "pair": "r3_p1",
+   "round": 3
+  },
+  "r3_p2_x.wav": {
+   "pair": "r3_p2",
+   "round": 3
+  },
+  "r3_p2_y.wav": {
+   "pair": "r3_p2",
+   "round": 3
+  },
+  "r3_p3_x.wav": {
+   "pair": "r3_p3",
+   "round": 3
+  },
+  "r3_p3_y.wav": {
+   "pair": "r3_p3",
+   "round": 3
+  },
+  "r4_01.wav": {
+   "defects": [
+    {
+     "end_sec": 12.22,
+     "start_sec": 12.217,
+     "type": "click_pop"
+    },
+    {
+     "clipped_samples": 782,
+     "end_sec": 23.48,
+     "gain_db": 14,
+     "start_sec": 21.68,
+     "type": "clipping"
+    },
+    {
+     "end_sec": 54.06,
+     "start_sec": 51.86,
+     "type": "silence_gap"
+    },
+    {
+     "end_sec": 74.888,
+     "level": "-36 dBFS RMS white noise",
+     "start_sec": 65.888,
+     "type": "hiss"
+    },
+    {
+     "end_sec": 84.334,
+     "start_sec": 84.331,
+     "type": "click_pop"
+    }
+   ],
+   "duration_sec": 92.048,
+   "round": 4
+  },
+  "r4_02.wav": {
+   "defects": [],
+   "duration_sec": 57.928,
+   "round": 4
+  },
+  "r5_01.wav": {
+   "cues": [
+    {
+     "length_sec": 1.06,
+     "onset_sec": 14.0,
+     "sound": "three knocks on a wooden door"
+    },
+    {
+     "length_sec": 2.0,
+     "onset_sec": 32.85,
+     "sound": "telephone ring"
+    },
+    {
+     "length_sec": 2.7,
+     "onset_sec": 44.53,
+     "sound": "water drips"
+    },
+    {
+     "length_sec": 3.0,
+     "onset_sec": 58.55,
+     "sound": "bell strike"
+    },
+    {
+     "length_sec": 1.2,
+     "onset_sec": 84.46,
+     "sound": "rising whistle"
+    },
+    {
+     "length_sec": 0.7,
+     "onset_sec": 108.88,
+     "sound": "car horn honk"
+    }
+   ],
+   "duration_sec": 120.0,
+   "round": "5a"
+  },
+  "r5_02.wav": {
+   "bursts": [
+    {
+     "burst_index": 1,
+     "description": "high chirp",
+     "onset_sec": 1.189,
+     "pulse_count": 9
+    },
+    {
+     "burst_index": 2,
+     "description": "short beep at 880 Hz",
+     "onset_sec": 5.246,
+     "pulse_count": 5
+    },
+    {
+     "burst_index": 3,
+     "description": "lower two-tone alert",
+     "onset_sec": 8.752,
+     "pulse_count": 8
+    }
+   ],
+   "duration_sec": 15.0,
+   "pulse_period_sec": 0.25,
+   "round": "5b"
+  }
+ },
+ "provenance": {
+  "private_audio": "none (synthetic and open-license audio only)",
+  "runtime": "mlx-audio 0.4.3, numpy, scipy",
+  "sounds_and_music": "all synthesized in this script (no outside recordings)",
+  "voices": "Kokoro-82M via mlx-community/Kokoro-82M-bf16 revision a71e4d38b236d968966a2002c4c895dbd12b1c3c (Apache-2.0); voices am_michael (narrator), af_heart (bleed speaker)"
+ },
+ "round3_pairs": {
+  "r3_p1": {
+   "clean_file": "r3_p1_x.wav",
+   "detail": "music bed +8 dB, both loudness-matched to -20 LUFS",
+   "flaw_category": "vocal_buried",
+   "flawed_file": "r3_p1_y.wav",
+   "fwd_answer": {
+    "better": "A",
+    "flawed_clip": "B"
+   },
+   "rev_answer": {
+    "better": "B",
+    "flawed_clip": "A"
+   }
+  },
+  "r3_p2": {
+   "clean_file": "r3_p2_y.wav",
+   "detail": "voice highpass 450 Hz + 9 dB peak at 3.2 kHz, both -20 LUFS",
+   "flaw_category": "harsh_thin_eq",
+   "flawed_file": "r3_p2_x.wav",
+   "fwd_answer": {
+    "better": "B",
+    "flawed_clip": "A"
+   },
+   "rev_answer": {
+    "better": "A",
+    "flawed_clip": "B"
+   }
+  },
+  "r3_p3": {
+   "clean_file": "r3_p3_x.wav",
+   "detail": "180 ms cut on an off-beat at 10.500 s, 5 ms crossfade, both -20 LUFS",
+   "flaw_category": "rhythm_or_splice_glitch",
+   "flawed_file": "r3_p3_y.wav",
+   "fwd_answer": {
+    "better": "A",
+    "flawed_clip": "B"
+   },
+   "rev_answer": {
+    "better": "B",
+    "flawed_clip": "A"
+   },
+   "splice_time_sec": 10.5
+  }
+ },
+ "seed": 6685209676620279349,
+ "spec": "EXAM_SPEC_V1.md"
+}

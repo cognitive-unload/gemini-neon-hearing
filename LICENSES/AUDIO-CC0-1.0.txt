@@ -1,0 +1,5 @@
+Synthesized Non-Speech Audio & Test Glitches (CC0 1.0 Universal)
+
+All non-speech sound scenes, music beds, impulse clicks, tones, and synthetic speech mixes in exam/wavs/
+were generated deterministically using numpy/scipy for this benchmark and dedicated to the public
+domain under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).

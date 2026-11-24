@@ -1,0 +1,219 @@
+{
+ "_about": {
+  "contestant": "dsp",
+  "thresholds": {
+   "silence": "ffmpeg silencedetect noise=-60dB d=1.0",
+   "clipping": ">= 3 consecutive samples at >= 0.999 full scale; spans merged within 0.25 s",
+   "click": "5 kHz highpass, 2nd difference; score = sample / median of its 1 s neighbourhood; isolated (90th pct of the 2-10 ms around it < 4x median); score above the calibrated threshold; merged within 0.05 s",
+   "hiss": "minimum statistics: 4 kHz highpass, quietest 20 ms frame in each 2 s window (hop 0.5 s); floor above the calibrated dBFS level; merged within 1 s; spans >= 2 s",
+   "onsets": "50 ms RMS envelope; rise above (median + 15 dB); new onset only after 1.5 s below that level",
+   "pulses": "10 ms RMS envelope above (median + 20 dB); pulses split by gaps >= 40 ms; bursts split by gaps >= 1.0 s",
+   "calibrated": {
+    "click_score_threshold": 131.4,
+    "hiss_floor_dbfs": -73.1,
+    "calibration_files": [
+     "calib_0.wav",
+     "calib_1.wav",
+     "calib_2.wav",
+     "calib_3.wav"
+    ]
+   }
+  },
+  "note": "Semantic fields are N/A: signal meters cannot name sounds, judge voices or pick a better mix."
+ },
+ "r1_01.wav": {
+  "speech_present": "N/A (DSP blind)",
+  "speech_transcript": null,
+  "events_in_order": [],
+  "scene_summary": "N/A (DSP blind)"
+ },
+ "r1_02.wav": {
+  "speech_present": "N/A (DSP blind)",
+  "speech_transcript": null,
+  "events_in_order": [
+   {
+    "label": "unlabelled energy event",
+    "approx_start_sec": 1.8,
+    "approx_end_sec": 2.35
+   },
+   {
+    "label": "unlabelled energy event",
+    "approx_start_sec": 5.1,
+    "approx_end_sec": 8.95
+   },
+   {
+    "label": "unlabelled energy event",
+    "approx_start_sec": 10.6,
+    "approx_end_sec": 11.4
+   }
+  ],
+  "scene_summary": "N/A (DSP blind)"
+ },
+ "r1_03.wav": {
+  "speech_present": "N/A (DSP blind)",
+  "speech_transcript": null,
+  "events_in_order": [
+   {
+    "label": "unlabelled energy event",
+    "approx_start_sec": 7.6,
+    "approx_end_sec": 9.1
+   }
+  ],
+  "scene_summary": "N/A (DSP blind)"
+ },
+ "r2_01.wav": {
+  "has_defect": false,
+  "defect_type": "none",
+  "approx_time_sec": null,
+  "explanation": "no clipping, dead air or isolated clicks found; splice, garble and overlap are N/A (DSP blind)"
+ },
+ "r2_02.wav": {
+  "has_defect": true,
+  "defect_type": "other",
+  "approx_time_sec": 11.215,
+  "explanation": "signal faults: click_pop at 11.215 s, click_pop at 11.336 s"
+ },
+ "r2_03.wav": {
+  "has_defect": false,
+  "defect_type": "none",
+  "approx_time_sec": null,
+  "explanation": "no clipping, dead air or isolated clicks found; splice, garble and overlap are N/A (DSP blind)"
+ },
+ "r2_04.wav": {
+  "has_defect": false,
+  "defect_type": "none",
+  "approx_time_sec": null,
+  "explanation": "no clipping, dead air or isolated clicks found; splice, garble and overlap are N/A (DSP blind)"
+ },
+ "r3_p1_fwd": {
+  "better": "N/A (DSP blind)",
+  "flawed_clip": "N/A (DSP blind)",
+  "flaw_category": "N/A (DSP blind)",
+  "explanation": "measurements only: clip_A {'lufs': -20.0, 'spectral_centroid_hz': 2807.1, 'clipping_spans': []}, clip_B {'lufs': -20.0, 'spectral_centroid_hz': 3017.7, 'clipping_spans': []}"
+ },
+ "r3_p1_rev": {
+  "better": "N/A (DSP blind)",
+  "flawed_clip": "N/A (DSP blind)",
+  "flaw_category": "N/A (DSP blind)",
+  "explanation": "measurements only: clip_A {'lufs': -20.0, 'spectral_centroid_hz': 3017.7, 'clipping_spans': []}, clip_B {'lufs': -20.0, 'spectral_centroid_hz': 2807.1, 'clipping_spans': []}"
+ },
+ "r3_p2_fwd": {
+  "better": "N/A (DSP blind)",
+  "flawed_clip": "N/A (DSP blind)",
+  "flaw_category": "N/A (DSP blind)",
+  "explanation": "measurements only: clip_A {'lufs': -20.0, 'spectral_centroid_hz': 3499.7, 'clipping_spans': []}, clip_B {'lufs': -20.0, 'spectral_centroid_hz': 2807.1, 'clipping_spans': []}"
+ },
+ "r3_p2_rev": {
+  "better": "N/A (DSP blind)",
+  "flawed_clip": "N/A (DSP blind)",
+  "flaw_category": "N/A (DSP blind)",
+  "explanation": "measurements only: clip_A {'lufs': -20.0, 'spectral_centroid_hz': 2807.1, 'clipping_spans': []}, clip_B {'lufs': -20.0, 'spectral_centroid_hz': 3499.7, 'clipping_spans': []}"
+ },
+ "r3_p3_fwd": {
+  "better": "N/A (DSP blind)",
+  "flawed_clip": "N/A (DSP blind)",
+  "flaw_category": "N/A (DSP blind)",
+  "explanation": "measurements only: clip_A {'lufs': -20.0, 'spectral_centroid_hz': 5780.8, 'clipping_spans': []}, clip_B {'lufs': -20.0, 'spectral_centroid_hz': 5653.9, 'clipping_spans': []}"
+ },
+ "r3_p3_rev": {
+  "better": "N/A (DSP blind)",
+  "flawed_clip": "N/A (DSP blind)",
+  "flaw_category": "N/A (DSP blind)",
+  "explanation": "measurements only: clip_A {'lufs': -20.0, 'spectral_centroid_hz': 5653.9, 'clipping_spans': []}, clip_B {'lufs': -20.0, 'spectral_centroid_hz': 5780.8, 'clipping_spans': []}"
+ },
+ "r4_01.wav": {
+  "has_defects": true,
+  "defects": [
+   {
+    "type": "click_pop",
+    "start_sec": 12.217,
+    "end_sec": 12.222,
+    "confidence": "high",
+    "note": "isolated impulse"
+   },
+   {
+    "type": "clipping",
+    "start_sec": 21.948,
+    "end_sec": 22.445,
+    "confidence": "high",
+    "note": "samples at full scale"
+   },
+   {
+    "type": "clipping",
+    "start_sec": 23.388,
+    "end_sec": 23.448,
+    "confidence": "high",
+    "note": "samples at full scale"
+   },
+   {
+    "type": "silence_gap",
+    "start_sec": 51.853,
+    "end_sec": 54.06,
+    "confidence": "high",
+    "note": "below -60 dBFS for over 1 s"
+   },
+   {
+    "type": "hiss",
+    "start_sec": 66.0,
+    "end_sec": 74.5,
+    "confidence": "medium",
+    "note": "high-band noise floor raised"
+   }
+  ]
+ },
+ "r4_02.wav": {
+  "has_defects": false,
+  "defects": []
+ },
+ "r5_01.wav": {
+  "estimated_duration_sec": 120.0,
+  "cues": [
+   {
+    "sound": "unlabelled onset",
+    "onset_sec": 14.0
+   },
+   {
+    "sound": "unlabelled onset",
+    "onset_sec": 32.85
+   },
+   {
+    "sound": "unlabelled onset",
+    "onset_sec": 44.5
+   },
+   {
+    "sound": "unlabelled onset",
+    "onset_sec": 58.55
+   },
+   {
+    "sound": "unlabelled onset",
+    "onset_sec": 84.45
+   },
+   {
+    "sound": "unlabelled onset",
+    "onset_sec": 108.85
+   }
+  ]
+ },
+ "r5_02.wav": {
+  "bursts": [
+   {
+    "burst_index": 1,
+    "onset_sec": 1.19,
+    "pulse_count": 9,
+    "description": "tone burst (unlabelled)"
+   },
+   {
+    "burst_index": 2,
+    "onset_sec": 5.24,
+    "pulse_count": 5,
+    "description": "tone burst (unlabelled)"
+   },
+   {
+    "burst_index": 3,
+    "onset_sec": 8.75,
+    "pulse_count": 8,
+    "description": "tone burst (unlabelled)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1088 @@
+{
+  "duration_only_r5_01": {
+    "mean_dur_err_pct": 0.0,
+    "onset_events_detected": "18/18",
+    "strict_labeled_recall": "14/18",
+    "strict_labeled_recall_pct": 77.78,
+    "lenient_labeled_recall": "15/18",
+    "lenient_labeled_recall_pct": 83.33,
+    "median_onset_err_sec": 2.735,
+    "max_onset_err_sec": 12.95,
+    "ratio_min_med_max": [
+      0.82,
+      1.06,
+      1.22
+    ],
+    "runs": [
+      {
+        "run": 1,
+        "est_dur_sec": 120.0,
+        "dur_err_pct": 0.0,
+        "n_cues_pred": 6,
+        "median_onset_err_sec": 4.595,
+        "max_onset_err_sec": 12.95,
+        "ratio_min_med_max": [
+          1.0,
+          1.14,
+          1.22
+        ],
+        "cues": [
+          {
+            "gt_idx": 1,
+            "gt_sound": "three knocks on a wooden door",
+            "gt_onset_sec": 14.0,
+            "pred_sound": "knocking on wood",
+            "pred_onset_sec": 16.5,
+            "abs_err_sec": 2.5,
+            "ratio_pred_over_true": 1.179,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 2,
+            "gt_sound": "telephone ring",
+            "gt_onset_sec": 32.85,
+            "pred_sound": "electric buzzing",
+            "pred_onset_sec": 36.0,
+            "abs_err_sec": 3.15,
+            "ratio_pred_over_true": 1.096,
+            "strict_label_match": false,
+            "lenient_label_match": false
+          },
+          {
+            "gt_idx": 3,
+            "gt_sound": "water drips",
+            "gt_onset_sec": 44.53,
+            "pred_sound": "rapid clicking and popping sounds",
+            "pred_onset_sec": 53.5,
+            "abs_err_sec": 8.97,
+            "ratio_pred_over_true": 1.201,
+            "strict_label_match": false,
+            "lenient_label_match": false
+          },
+          {
+            "gt_idx": 4,
+            "gt_sound": "bell strike",
+            "gt_onset_sec": 58.55,
+            "pred_sound": "metallic bell chime",
+            "pred_onset_sec": 71.5,
+            "abs_err_sec": 12.95,
+            "ratio_pred_over_true": 1.221,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 5,
+            "gt_sound": "rising whistle",
+            "gt_onset_sec": 84.46,
+            "pred_sound": "whistle",
+            "pred_onset_sec": 90.5,
+            "abs_err_sec": 6.04,
+            "ratio_pred_over_true": 1.072,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 6,
+            "gt_sound": "car horn honk",
+            "gt_onset_sec": 108.88,
+            "pred_sound": "sustained horn or alarm tone",
+            "pred_onset_sec": 108.5,
+            "abs_err_sec": 0.38,
+            "ratio_pred_over_true": 0.997,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          }
+        ]
+      },
+      {
+        "run": 2,
+        "est_dur_sec": 120.0,
+        "dur_err_pct": 0.0,
+        "n_cues_pred": 6,
+        "median_onset_err_sec": 2.095,
+        "max_onset_err_sec": 3.97,
+        "ratio_min_med_max": [
+          0.99,
+          1.04,
+          1.09
+        ],
+        "cues": [
+          {
+            "gt_idx": 1,
+            "gt_sound": "three knocks on a wooden door",
+            "gt_onset_sec": 14.0,
+            "pred_sound": "three wooden knocks",
+            "pred_onset_sec": 14.0,
+            "abs_err_sec": 0.0,
+            "ratio_pred_over_true": 1.0,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 2,
+            "gt_sound": "telephone ring",
+            "gt_onset_sec": 32.85,
+            "pred_sound": "electronic trill / buzzer",
+            "pred_onset_sec": 35.0,
+            "abs_err_sec": 2.15,
+            "ratio_pred_over_true": 1.065,
+            "strict_label_match": false,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 3,
+            "gt_sound": "water drips",
+            "gt_onset_sec": 44.53,
+            "pred_sound": "four rapid high-pitched blips / pops",
+            "pred_onset_sec": 48.5,
+            "abs_err_sec": 3.97,
+            "ratio_pred_over_true": 1.089,
+            "strict_label_match": false,
+            "lenient_label_match": false
+          },
+          {
+            "gt_idx": 4,
+            "gt_sound": "bell strike",
+            "gt_onset_sec": 58.55,
+            "pred_sound": "resonant bell chime",
+            "pred_onset_sec": 61.8,
+            "abs_err_sec": 3.25,
+            "ratio_pred_over_true": 1.056,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 5,
+            "gt_sound": "rising whistle",
+            "gt_onset_sec": 84.46,
+            "pred_sound": "whistle",
+            "pred_onset_sec": 86.5,
+            "abs_err_sec": 2.04,
+            "ratio_pred_over_true": 1.024,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 6,
+            "gt_sound": "car horn honk",
+            "gt_onset_sec": 108.88,
+            "pred_sound": "harsh electronic horn / alarm tone",
+            "pred_onset_sec": 107.5,
+            "abs_err_sec": 1.38,
+            "ratio_pred_over_true": 0.987,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          }
+        ]
+      },
+      {
+        "run": 3,
+        "est_dur_sec": 120.0,
+        "dur_err_pct": 0.0,
+        "n_cues_pred": 6,
+        "median_onset_err_sec": 2.735,
+        "max_onset_err_sec": 4.95,
+        "ratio_min_med_max": [
+          0.82,
+          0.99,
+          1.08
+        ],
+        "cues": [
+          {
+            "gt_idx": 1,
+            "gt_sound": "three knocks on a wooden door",
+            "gt_onset_sec": 14.0,
+            "pred_sound": "wooden door knock",
+            "pred_onset_sec": 11.5,
+            "abs_err_sec": 2.5,
+            "ratio_pred_over_true": 0.821,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 2,
+            "gt_sound": "telephone ring",
+            "gt_onset_sec": 32.85,
+            "pred_sound": "telephone ring",
+            "pred_onset_sec": 31.0,
+            "abs_err_sec": 1.85,
+            "ratio_pred_over_true": 0.944,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 3,
+            "gt_sound": "water drips",
+            "gt_onset_sec": 44.53,
+            "pred_sound": "water drops",
+            "pred_onset_sec": 47.5,
+            "abs_err_sec": 2.97,
+            "ratio_pred_over_true": 1.067,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 4,
+            "gt_sound": "bell strike",
+            "gt_onset_sec": 58.55,
+            "pred_sound": "metallic bell chime",
+            "pred_onset_sec": 63.5,
+            "abs_err_sec": 4.95,
+            "ratio_pred_over_true": 1.085,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 5,
+            "gt_sound": "rising whistle",
+            "gt_onset_sec": 84.46,
+            "pred_sound": "referee whistle",
+            "pred_onset_sec": 86.0,
+            "abs_err_sec": 1.54,
+            "ratio_pred_over_true": 1.018,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 6,
+            "gt_sound": "car horn honk",
+            "gt_onset_sec": 108.88,
+            "pred_sound": "car horn",
+            "pred_onset_sec": 105.5,
+            "abs_err_sec": 3.38,
+            "ratio_pred_over_true": 0.969,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          }
+        ]
+      }
+    ]
+  },
+  "duration_only_r4_01": {
+    "tol_5s": {
+      "recall": "10/15",
+      "recall_pct": 66.67,
+      "strict_1s": "5/15",
+      "strict_1s_pct": 33.33,
+      "click_recall": "1/6",
+      "by_subtype_hits": {
+        "click_pop": 1,
+        "clipping": 3,
+        "silence_gap": 3,
+        "hiss": 3
+      },
+      "median_err_sec": 1.11,
+      "max_err_sec": 1.68,
+      "unmatched_r4_01": 0,
+      "runs": [
+        {
+          "run": 1,
+          "has_defects": true,
+          "n_pred": 3,
+          "matched": [
+            {
+              "type": "clipping",
+              "gt_start_sec": 21.68,
+              "pred_start_sec": 20.2,
+              "abs_err_sec": 1.48
+            },
+            {
+              "type": "silence_gap",
+              "gt_start_sec": 51.86,
+              "pred_start_sec": 50.5,
+              "abs_err_sec": 1.36
+            },
+            {
+              "type": "hiss",
+              "gt_start_sec": 65.888,
+              "pred_start_sec": 65.5,
+              "abs_err_sec": 0.388
+            }
+          ],
+          "unmatched": []
+        },
+        {
+          "run": 2,
+          "has_defects": true,
+          "n_pred": 3,
+          "matched": [
+            {
+              "type": "clipping",
+              "gt_start_sec": 21.68,
+              "pred_start_sec": 21.2,
+              "abs_err_sec": 0.48
+            },
+            {
+              "type": "silence_gap",
+              "gt_start_sec": 51.86,
+              "pred_start_sec": 51.0,
+              "abs_err_sec": 0.86
+            },
+            {
+              "type": "hiss",
+              "gt_start_sec": 65.888,
+              "pred_start_sec": 67.5,
+              "abs_err_sec": 1.612
+            }
+          ],
+          "unmatched": []
+        },
+        {
+          "run": 3,
+          "has_defects": true,
+          "n_pred": 4,
+          "matched": [
+            {
+              "type": "click_pop",
+              "gt_start_sec": 12.217,
+              "pred_start_sec": 11.4,
+              "abs_err_sec": 0.817
+            },
+            {
+              "type": "clipping",
+              "gt_start_sec": 21.68,
+              "pred_start_sec": 20.0,
+              "abs_err_sec": 1.68
+            },
+            {
+              "type": "silence_gap",
+              "gt_start_sec": 51.86,
+              "pred_start_sec": 50.5,
+              "abs_err_sec": 1.36
+            },
+            {
+              "type": "hiss",
+              "gt_start_sec": 65.888,
+              "pred_start_sec": 65.5,
+              "abs_err_sec": 0.388
+            }
+          ],
+          "unmatched": []
+        }
+      ]
+    },
+    "unrestricted": {
+      "recall": "10/15",
+      "recall_pct": 66.67,
+      "strict_1s": "5/15",
+      "strict_1s_pct": 33.33,
+      "click_recall": "1/6",
+      "by_subtype_hits": {
+        "click_pop": 1,
+        "clipping": 3,
+        "silence_gap": 3,
+        "hiss": 3
+      },
+      "median_err_sec": 1.11,
+      "max_err_sec": 1.68,
+      "unmatched_r4_01": 0,
+      "runs": [
+        {
+          "run": 1,
+          "has_defects": true,
+          "n_pred": 3,
+          "matched": [
+            {
+              "type": "clipping",
+              "gt_start_sec": 21.68,
+              "pred_start_sec": 20.2,
+              "abs_err_sec": 1.48
+            },
+            {
+              "type": "silence_gap",
+              "gt_start_sec": 51.86,
+              "pred_start_sec": 50.5,
+              "abs_err_sec": 1.36
+            },
+            {
+              "type": "hiss",
+              "gt_start_sec": 65.888,
+              "pred_start_sec": 65.5,
+              "abs_err_sec": 0.388
+            }
+          ],
+          "unmatched": []
+        },
+        {
+          "run": 2,
+          "has_defects": true,
+          "n_pred": 3,
+          "matched": [
+            {
+              "type": "clipping",
+              "gt_start_sec": 21.68,
+              "pred_start_sec": 21.2,
+              "abs_err_sec": 0.48
+            },
+            {
+              "type": "silence_gap",
+              "gt_start_sec": 51.86,
+              "pred_start_sec": 51.0,
+              "abs_err_sec": 0.86
+            },
+            {
+              "type": "hiss",
+              "gt_start_sec": 65.888,
+              "pred_start_sec": 67.5,
+              "abs_err_sec": 1.612
+            }
+          ],
+          "unmatched": []
+        },
+        {
+          "run": 3,
+          "has_defects": true,
+          "n_pred": 4,
+          "matched": [
+            {
+              "type": "click_pop",
+              "gt_start_sec": 12.217,
+              "pred_start_sec": 11.4,
+              "abs_err_sec": 0.817
+            },
+            {
+              "type": "clipping",
+              "gt_start_sec": 21.68,
+              "pred_start_sec": 20.0,
+              "abs_err_sec": 1.68
+            },
+            {
+              "type": "silence_gap",
+              "gt_start_sec": 51.86,
+              "pred_start_sec": 50.5,
+              "abs_err_sec": 1.36
+            },
+            {
+              "type": "hiss",
+              "gt_start_sec": 65.888,
+              "pred_start_sec": 65.5,
+              "abs_err_sec": 0.388
+            }
+          ],
+          "unmatched": []
+        }
+      ]
+    }
+  },
+  "neon_high_r5_01": {
+    "mean_dur_err_pct": 24.86,
+    "onset_events_detected": "18/18",
+    "strict_labeled_recall": "15/18",
+    "strict_labeled_recall_pct": 83.33,
+    "lenient_labeled_recall": "17/18",
+    "lenient_labeled_recall_pct": 94.44,
+    "median_onset_err_sec": 12.1,
+    "max_onset_err_sec": 46.88,
+    "ratio_min_med_max": [
+      0.57,
+      0.66,
+      1.06
+    ],
+    "runs": [
+      {
+        "run": 1,
+        "est_dur_sec": 70.5,
+        "dur_err_pct": 41.25,
+        "n_cues_pred": 6,
+        "median_onset_err_sec": 18.29,
+        "max_onset_err_sec": 46.88,
+        "ratio_min_med_max": [
+          0.57,
+          0.62,
+          0.65
+        ],
+        "cues": [
+          {
+            "gt_idx": 1,
+            "gt_sound": "three knocks on a wooden door",
+            "gt_onset_sec": 14.0,
+            "pred_sound": "door knocking",
+            "pred_onset_sec": 9.0,
+            "abs_err_sec": 5.0,
+            "ratio_pred_over_true": 0.643,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 2,
+            "gt_sound": "telephone ring",
+            "gt_onset_sec": 32.85,
+            "pred_sound": "buzzer",
+            "pred_onset_sec": 20.0,
+            "abs_err_sec": 12.85,
+            "ratio_pred_over_true": 0.609,
+            "strict_label_match": false,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 3,
+            "gt_sound": "water drips",
+            "gt_onset_sec": 44.53,
+            "pred_sound": "water dripping",
+            "pred_onset_sec": 29.0,
+            "abs_err_sec": 15.53,
+            "ratio_pred_over_true": 0.651,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 4,
+            "gt_sound": "bell strike",
+            "gt_onset_sec": 58.55,
+            "pred_sound": "bell chime",
+            "pred_onset_sec": 37.5,
+            "abs_err_sec": 21.05,
+            "ratio_pred_over_true": 0.64,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 5,
+            "gt_sound": "rising whistle",
+            "gt_onset_sec": 84.46,
+            "pred_sound": "whistle",
+            "pred_onset_sec": 50.5,
+            "abs_err_sec": 33.96,
+            "ratio_pred_over_true": 0.598,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 6,
+            "gt_sound": "car horn honk",
+            "gt_onset_sec": 108.88,
+            "pred_sound": "car horn",
+            "pred_onset_sec": 62.0,
+            "abs_err_sec": 46.88,
+            "ratio_pred_over_true": 0.569,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          }
+        ]
+      },
+      {
+        "run": 2,
+        "est_dur_sec": 80.0,
+        "dur_err_pct": 33.33,
+        "n_cues_pred": 6,
+        "median_onset_err_sec": 16.29,
+        "max_onset_err_sec": 37.88,
+        "ratio_min_med_max": [
+          0.61,
+          0.66,
+          0.68
+        ],
+        "cues": [
+          {
+            "gt_idx": 1,
+            "gt_sound": "three knocks on a wooden door",
+            "gt_onset_sec": 14.0,
+            "pred_sound": "double wood knock",
+            "pred_onset_sec": 8.5,
+            "abs_err_sec": 5.5,
+            "ratio_pred_over_true": 0.607,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 2,
+            "gt_sound": "telephone ring",
+            "gt_onset_sec": 32.85,
+            "pred_sound": "rapid buzzing vibration",
+            "pred_onset_sec": 21.5,
+            "abs_err_sec": 11.35,
+            "ratio_pred_over_true": 0.654,
+            "strict_label_match": false,
+            "lenient_label_match": false
+          },
+          {
+            "gt_idx": 3,
+            "gt_sound": "water drips",
+            "gt_onset_sec": 44.53,
+            "pred_sound": "water droplets",
+            "pred_onset_sec": 30.5,
+            "abs_err_sec": 14.03,
+            "ratio_pred_over_true": 0.685,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 4,
+            "gt_sound": "bell strike",
+            "gt_onset_sec": 58.55,
+            "pred_sound": "bell chime",
+            "pred_onset_sec": 40.0,
+            "abs_err_sec": 18.55,
+            "ratio_pred_over_true": 0.683,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 5,
+            "gt_sound": "rising whistle",
+            "gt_onset_sec": 84.46,
+            "pred_sound": "whistle",
+            "pred_onset_sec": 56.0,
+            "abs_err_sec": 28.46,
+            "ratio_pred_over_true": 0.663,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 6,
+            "gt_sound": "car horn honk",
+            "gt_onset_sec": 108.88,
+            "pred_sound": "buzzer horn",
+            "pred_onset_sec": 71.0,
+            "abs_err_sec": 37.88,
+            "ratio_pred_over_true": 0.652,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          }
+        ]
+      },
+      {
+        "run": 3,
+        "est_dur_sec": 120.0,
+        "dur_err_pct": 0.0,
+        "n_cues_pred": 6,
+        "median_onset_err_sec": 1.465,
+        "max_onset_err_sec": 3.88,
+        "ratio_min_med_max": [
+          0.96,
+          1.0,
+          1.06
+        ],
+        "cues": [
+          {
+            "gt_idx": 1,
+            "gt_sound": "three knocks on a wooden door",
+            "gt_onset_sec": 14.0,
+            "pred_sound": "three wooden knocks",
+            "pred_onset_sec": 14.0,
+            "abs_err_sec": 0.0,
+            "ratio_pred_over_true": 1.0,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 2,
+            "gt_sound": "telephone ring",
+            "gt_onset_sec": 32.85,
+            "pred_sound": "electric buzzer",
+            "pred_onset_sec": 33.0,
+            "abs_err_sec": 0.15,
+            "ratio_pred_over_true": 1.005,
+            "strict_label_match": false,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 3,
+            "gt_sound": "water drips",
+            "gt_onset_sec": 44.53,
+            "pred_sound": "water droplets",
+            "pred_onset_sec": 47.0,
+            "abs_err_sec": 2.47,
+            "ratio_pred_over_true": 1.055,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 4,
+            "gt_sound": "bell strike",
+            "gt_onset_sec": 58.55,
+            "pred_sound": "metallic bell chime",
+            "pred_onset_sec": 62.0,
+            "abs_err_sec": 3.45,
+            "ratio_pred_over_true": 1.059,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 5,
+            "gt_sound": "rising whistle",
+            "gt_onset_sec": 84.46,
+            "pred_sound": "whistle",
+            "pred_onset_sec": 84.0,
+            "abs_err_sec": 0.46,
+            "ratio_pred_over_true": 0.995,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          },
+          {
+            "gt_idx": 6,
+            "gt_sound": "car horn honk",
+            "gt_onset_sec": 108.88,
+            "pred_sound": "electronic horn beep",
+            "pred_onset_sec": 105.0,
+            "abs_err_sec": 3.88,
+            "ratio_pred_over_true": 0.964,
+            "strict_label_match": true,
+            "lenient_label_match": true
+          }
+        ]
+      }
+    ]
+  },
+  "r3_single_clip": {
+    "standalone_exact_cls": "8/18",
+    "standalone_exact_cls_pct": 44.44,
+    "clean_false_positives": "1/9",
+    "flawed_detected_rate": "0/9",
+    "flawed_exact_cause_rate": "0/9",
+    "implied_pairwise_wins": "0/9",
+    "implied_pairwise_win_pct": 0.0,
+    "implied_pairwise_ties": "8/9",
+    "implied_pairwise_losses": "1/9",
+    "tiebroken_pairwise_wins": "0/9",
+    "tiebroken_pairwise_win_pct": 0.0,
+    "per_pair": [
+      {
+        "pair": "r3_p1",
+        "flaw_category": "vocal_buried",
+        "mean_clean_score": 9.0,
+        "mean_flawed_score": 9.0,
+        "runs": [
+          {
+            "run": 1,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          },
+          {
+            "run": 2,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          },
+          {
+            "run": 3,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          }
+        ]
+      },
+      {
+        "pair": "r3_p2",
+        "flaw_category": "harsh_thin_eq",
+        "mean_clean_score": 9.0,
+        "mean_flawed_score": 9.0,
+        "runs": [
+          {
+            "run": 1,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          },
+          {
+            "run": 2,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          },
+          {
+            "run": 3,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          }
+        ]
+      },
+      {
+        "pair": "r3_p3",
+        "flaw_category": "rhythm_or_splice_glitch",
+        "mean_clean_score": 7.0,
+        "mean_flawed_score": 9.0,
+        "runs": [
+          {
+            "run": 1,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          },
+          {
+            "run": 2,
+            "clean_score": 3.0,
+            "clean_has_flaw": true,
+            "clean_cat": "vocal_buried",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "loss",
+            "tiebreak_win": false
+          },
+          {
+            "run": 3,
+            "clean_score": 9.0,
+            "clean_has_flaw": false,
+            "clean_cat": "none",
+            "flawed_score": 9.0,
+            "flawed_has_flaw": false,
+            "flawed_cat": "none",
+            "outcome": "tie",
+            "tiebreak_win": false
+          }
+        ]
+      }
+    ],
+    "per_run": [
+      {
+        "item": "r3_p1_x",
+        "pair": "r3_p1",
+        "run": 1,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The voice sits clearly and comfortably above the background music with warm, balanced EQ and effortless intelligibility. The music bed is steady and unobtrusive with no noticeable harshness, distortion, or splice/rhythm glitches."
+      },
+      {
+        "item": "r3_p1_x",
+        "pair": "r3_p1",
+        "run": 2,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The voice sits clearly and intelligibly on top of the subtle background music bed with balanced, warm EQ and no audible distortion, harshness, or splice/rhythm glitches."
+      },
+      {
+        "item": "r3_p1_x",
+        "pair": "r3_p1",
+        "run": 3,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The mix is clean and well-balanced: the spoken voice sits clearly and prominently above the subtle background music bed, the EQ sounds warm and natural without harshness or thinness, and there are no audible clicks, dropouts, or rhythm/splice glitches."
+      },
+      {
+        "item": "r3_p1_y",
+        "pair": "r3_p1",
+        "run": 1,
+        "gt_clean": false,
+        "gt_flaw": "vocal_buried",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The vocal track is warm, natural, and sits clearly on top of the background music without competing for intelligibility. The EQ is well-balanced with no harshness or thinness, and both the narration and music bed flow smoothly with no audible splice glitches or timing artifacts."
+      },
+      {
+        "item": "r3_p1_y",
+        "pair": "r3_p1",
+        "run": 2,
+        "gt_clean": false,
+        "gt_flaw": "vocal_buried",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The narration sits clearly and intelligibly above the background music with a natural, warm vocal timbre. The backing track is well-balanced with a steady rhythm, and there are no audible EQ issues, distortion, or splice glitches."
+      },
+      {
+        "item": "r3_p1_y",
+        "pair": "r3_p1",
+        "run": 3,
+        "gt_clean": false,
+        "gt_flaw": "vocal_buried",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The voice is clear, warm, and well-balanced on top of a subtle, unobtrusive music bed. There are no harsh or thin EQ issues, no vocal masking, and no audible splice glitches, clicks, or rhythmic disruptions."
+      },
+      {
+        "item": "r3_p2_x",
+        "pair": "r3_p2",
+        "run": 1,
+        "gt_clean": false,
+        "gt_flaw": "harsh_thin_eq",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The mix is clean and well-balanced. The narration is clear, full-bodied, and sits comfortably above the subtle background music without any harsh EQ, buried vocals, distortion, or splice/rhythm glitches."
+      },
+      {
+        "item": "r3_p2_x",
+        "pair": "r3_p2",
+        "run": 2,
+        "gt_clean": false,
+        "gt_flaw": "harsh_thin_eq",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The mix is clean and well-balanced. The spoken vocal is warm, clear, and sits comfortably on top of the background music without competing for attention. The tonal balance is natural with no harshness or thinness, and the playback is smooth with no splice, timing, or editing glitches."
+      },
+      {
+        "item": "r3_p2_x",
+        "pair": "r3_p2",
+        "run": 3,
+        "gt_clean": false,
+        "gt_flaw": "harsh_thin_eq",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The vocal track is clear, warm, and well-balanced on top of the subtle background music, with natural EQ and no audible splice glitches, timing issues, or distortion."
+      },
+      {
+        "item": "r3_p2_y",
+        "pair": "r3_p2",
+        "run": 1,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The mix is clean and well-balanced. The voice is warm, clear, and sits comfortably on top of the subtle background music without any masking, harsh EQ, distortion, or editing/rhythm glitches."
+      },
+      {
+        "item": "r3_p2_y",
+        "pair": "r3_p2",
+        "run": 2,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The voiceover is warm, full, and clearly intelligible, sitting comfortably on top of the subtle background music bed without competing with it. The EQ is well-balanced with no harshness or thinness, and both the speech and music play smoothly with no audible clicks, stutters, or splice glitches."
+      },
+      {
+        "item": "r3_p2_y",
+        "pair": "r3_p2",
+        "run": 3,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The voice sits clearly and prominently on top of the subtle, warm background music with natural, well-balanced EQ and no harshness, muddiness, or audible splice/rhythm glitches."
+      },
+      {
+        "item": "r3_p3_x",
+        "pair": "r3_p3",
+        "run": 1,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The clip is a clean, well-balanced instrumental electronic bed with a warm low end, smooth synth chords, and a steady, seamless rhythm free of clipping, harsh EQ, or splice glitches."
+      },
+      {
+        "item": "r3_p3_x",
+        "pair": "r3_p3",
+        "run": 2,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": true,
+        "flaw_category": "vocal_buried",
+        "score": 3.0,
+        "exact_cls": false,
+        "explanation": "The background music track is mixed far too loud relative to the spoken voiceover, burying the vocals and making the speech very difficult to hear and understand."
+      },
+      {
+        "item": "r3_p3_x",
+        "pair": "r3_p3",
+        "run": 3,
+        "gt_clean": true,
+        "gt_flaw": "none",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": true,
+        "explanation": "The clip is clean and well-balanced. The spoken voice sits clearly and intelligibly above the background music with a warm, natural tonal balance, and both the speech and underlying electronic beat progress smoothly with no noticeable clipping, harshness, or editing glitches."
+      },
+      {
+        "item": "r3_p3_y",
+        "pair": "r3_p3",
+        "run": 1,
+        "gt_clean": false,
+        "gt_flaw": "rhythm_or_splice_glitch",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "Clean, well-balanced instrumental synth and drum loop with warm low end, clear percussion, smooth tonal balance, and steady, glitch-free timing throughout."
+      },
+      {
+        "item": "r3_p3_y",
+        "pair": "r3_p3",
+        "run": 2,
+        "gt_clean": false,
+        "gt_flaw": "rhythm_or_splice_glitch",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The clip is a clean, well-balanced instrumental synth and drum track with warm low-end, smooth midrange and highs, consistent tempo, and no audible splice glitches, harsh EQ, or mix issues."
+      },
+      {
+        "item": "r3_p3_y",
+        "pair": "r3_p3",
+        "run": 3,
+        "gt_clean": false,
+        "gt_flaw": "rhythm_or_splice_glitch",
+        "has_flaw": false,
+        "flaw_category": "none",
+        "score": 9.0,
+        "exact_cls": false,
+        "explanation": "The clip is a clean, well-balanced instrumental synth/beat bed with a warm low end, smooth midrange, crisp non-harsh highs, and steady timing throughout with no audible glitches, clicks, or mix defects."
+      }
+    ]
+  },
+  "artifacts": {
+    "ablation_v2_outputs.md": "aee6555749bf0a012e8db1957bcff506a26197c29905082ee429fc85e5207920",
+    "ablation_v2_outputs.tar.gz": "15576b8e90b42d4b7ff9fc566540a06b976da4d4b76f5a04ba2b8a5564f77b33"
+  }
+}

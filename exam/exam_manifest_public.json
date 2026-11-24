@@ -1,0 +1,124 @@
+{
+ "exam": "Blind Exam Pack v1",
+ "files": [
+  {
+   "filename": "r1_01.wav",
+   "round": 1,
+   "sha256": "d7e450dece61f2bb867ec4035b614a89c22cf77e769a9868a6ebfe3741d243d2",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r1_02.wav",
+   "round": 1,
+   "sha256": "4f8f1c413b0602a124fab13c0c6a64dffe67789fae121b648d3e55bb56cf5074",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r1_03.wav",
+   "round": 1,
+   "sha256": "4166383ea692177690c92b1fd4b5115c4d57f292e35928d7af7de3a489f8c91c",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r2_01.wav",
+   "round": 2,
+   "sha256": "98f266a84f69afdcbb89a05508b25104c7a4255fcddf36889c0ac37399d6c2c8",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r2_02.wav",
+   "round": 2,
+   "sha256": "7ded83cd83c4292b1062cfa04438524a92badf6c8e6936fa00d4dbe93f27817d",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r2_03.wav",
+   "round": 2,
+   "sha256": "90f5cdba0d5af466611b5a3c74335e4ac603e0e7e46d581d16fedb73f0b13487",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r2_04.wav",
+   "round": 2,
+   "sha256": "d8f16a49372c7c7d4d874d87f0717925d9b5c78cbe86493c50e8f00f8912af67",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r3_p1_x.wav",
+   "round": 3,
+   "sha256": "5178b6b9811c903173f20d25e9aeaaccfccd8cf8d668e00ec2346db612b0cbbf",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r3_p1_y.wav",
+   "round": 3,
+   "sha256": "f512f1ac0d8684f00d5cbfb3dc4f7b18025cd6f2f0ed28eff38fbf8fe6358872",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r3_p2_x.wav",
+   "round": 3,
+   "sha256": "8752914b40304b107f832d613228d664add06b0d297d51dec1e92ca0a1d7e1d6",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r3_p2_y.wav",
+   "round": 3,
+   "sha256": "5178b6b9811c903173f20d25e9aeaaccfccd8cf8d668e00ec2346db612b0cbbf",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r3_p3_x.wav",
+   "round": 3,
+   "sha256": "1f4f3678e6839d69c876e75aab3e8b2d599ec885de913a1b11f1dc42a7f3b4c4",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r3_p3_y.wav",
+   "round": 3,
+   "sha256": "ed33a8698e46c175b3747a631d92d637ab6ce43b07a818214e6e7bb029ab20fb",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r4_01.wav",
+   "round": 4,
+   "sha256": "0ddaffd072243458239c4af0a395d953d67465980d088264aee6fc91fa60f890",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r4_02.wav",
+   "round": 4,
+   "sha256": "c909cb07e86570e8f9370f02de691182dba72f2f460826bc5cc4ea2062f87c46",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r5_01.wav",
+   "round": 5,
+   "sha256": "d21dd26f70fedd5ae047ed4c8a8fb28ad86612d64de3269bed2887ad3d855557",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  },
+  {
+   "filename": "r5_02.wav",
+   "round": 5,
+   "sha256": "cf2593b57a3d2c1e7616919468783de36cbb88ec9d5568dc15065fae173a03f3",
+   "license": "CC0-1.0 (our generated audio); Kokoro voice model Apache-2.0",
+   "rights_source": "Made for this exam by Cognitive Unload. Voices: Kokoro-82M (Apache-2.0), mlx-community/Kokoro-82M-bf16 rev a71e4d38. Other sounds and music: synthesized with numpy. No outside recordings, no private audio."
+  }
+ ]
+}
